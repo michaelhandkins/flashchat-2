@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
                     
                 } else {
                     
-                    strongSelf.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    strongSelf.performSegue(withIdentifier: K.loginSegue, sender: self)
                     
                 }
             }
