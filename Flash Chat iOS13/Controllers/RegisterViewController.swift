@@ -34,11 +34,20 @@ class RegisterViewController: UIViewController {
                     
                     self.present(alert, animated: true, completion: nil)
                     
+                } else {
+                    
+                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    
                 }
                 
             }
             
         }
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! ChatViewController
         
     }
     
