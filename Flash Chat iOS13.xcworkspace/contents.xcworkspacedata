@@ -14,6 +14,9 @@
       location = "group:flashchat_register.gif">
    </FileRef>
    <FileRef
+      location = "group:animation.gif">
+   </FileRef>
+   <FileRef
       location = "group:sign_in.gif">
    </FileRef>
 </Workspace>

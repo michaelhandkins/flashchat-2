@@ -16,4 +16,20 @@ Flash Chat is an internet based messaging app similar to WhatsApp, the popular m
 * The App Lifecycle and how to use viewWillAppear or viewWillDisappear.
 * How to create direct Segues for navigation.
 
+## User Interface
 
+Upon launching the app, users will be greeted with an animation of the app's title.
+
+![](https://github.com/michaelhandkins/flashchat-2/blob/master/animation.gif)
+
+By tapping "register", the user can then get signed up for their own account on Flashchat. If the registration is successful, they will then be escorted to the messaging screen.
+
+![](https://github.com/michaelhandkins/flashchat-2/blob/master/flashchat_register.gif)
+
+Registered users can sign-in using the "Log In" button. Once signed in, they can send and receive messages to and from other registered users.
+
+![](https://github.com/michaelhandkins/flashchat-2/blob/master/sign_in.gif)
+
+If there are any errors with the sign-in or registration process, users will receive a pop-up that describes the error.
+
+![](https://github.com/michaelhandkins/flashchat-2/blob/master/error.gif)
