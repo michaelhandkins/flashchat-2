@@ -7,4 +7,13 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:error.gif">
+   </FileRef>
+   <FileRef
+      location = "group:flashchat_register.gif">
+   </FileRef>
+   <FileRef
+      location = "group:sign_in.gif">
+   </FileRef>
 </Workspace>
