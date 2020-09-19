@@ -9,7 +9,7 @@ import Foundation
 
 struct K {
     //people like to use 'K' in place of 'Constants' because it's shorter
-    static let appName = "⚡️FlashChat"
+    static let appName = "Chatbox💬"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"
     static let registerSegue = "RegisterToChat"
